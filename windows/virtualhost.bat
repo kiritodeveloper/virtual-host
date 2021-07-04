@@ -35,7 +35,7 @@ add_virtual_host:
     read document_root;
     echo "Please enter your ServerName ('www.yoursite.com') :";
     read server_name;
-    virtual_host=" 
+    virtual_host="
     <VirtualHost *:80>\n
         DocumentRoot '$document_root'\n
         ServerName $server_name\n
